@@ -42,3 +42,28 @@
 header{
     background-color: rgb(176, 142, 209);
 }
+.titulo-container {
+  position: relative;
+  display: inline-block;
+  padding-top: 60px;
+}
+
+.icono {
+  position: absolute;
+  top: -60px;    
+  right: -20px;   
+  font-size: 5rem;
+  color:black
+}
+.carousel {
+  width: 100%;
+  max-width: none; /* 🔥 importante */
+  margin: 0;       /* opcional */
+}
+
+/* Tamaño de las imágenes */
+.carousel-item img {
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+}
