@@ -1,0 +1,16 @@
+.navbar {
+    background-color: rgb(15, 76, 92);
+}
+
+.navbar-brand {
+    color: rgb(176, 142, 209);
+    font-family: "Playwrite DE SAS", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  padding-right: 100px;
+}
+
+.nav-link {
+    color: rgb(176, 142, 209);
+}
