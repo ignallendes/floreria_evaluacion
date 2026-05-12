@@ -5,12 +5,21 @@
 .navbar-brand {
     color: rgb(176, 142, 209);
     font-family: "Playwrite DE SAS", cursive;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-  padding-right: 100px;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    padding-right: 100px;
 }
 
 .nav-link {
     color: rgb(176, 142, 209);
+}
+
+.hero {
+    background-color: rgb(176, 142, 209);
+    padding: 100px;
+}
+
+.bienvenida {
+    padding-left: 0;
 }
