@@ -114,9 +114,33 @@
         </div>
         <section id="contactanos">
             <h2>Contáctanos</h2>
-
             <form>
-                ...
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label for="inputNombre">Nombre</label>
+                        <input type="text" class="form-control" id="inputNombre" placeholder="Nombre">
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="inputEmail">Email</label>
+                        <input type="email" class="form-control" id="inputEmail" placeholder="Email">
+                    </div>
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="inputCelular">Celular</label>
+                    <input type="text" class="form-control" id="inputCelular" placeholder="Celular">
+                </div>
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label for="inputEscribenos">Escríbenos</label>
+                        <textarea class="form-control" id="inputEscribenos" rows="5" maxlength="500"
+                            placeholder="Escribe aquí tu mensaje...">
+        </textarea>
+                        <small class="form-text text-muted">
+                            Máximo 500 caracteres.
+                        </small>
+                    </div>
+                </div>
+                <button type="submit" class="btn btn-primary">Enviar</button>
             </form>
         </section>
     </main>
