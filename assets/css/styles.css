@@ -18,6 +18,9 @@
 .hero {
     background-color: rgb(176, 142, 209);
     padding: 90px 15px;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
 }
 
 .bienvenida {
@@ -32,5 +35,10 @@
 @media (max-width: 768px) {
     .hero {
         padding: 60px 15px;
+    }
+
+    .bienvenida {
+        text-align: center;
+        padding-top: 10px;
     }
 }
