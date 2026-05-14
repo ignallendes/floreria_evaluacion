@@ -55,3 +55,14 @@ campos.forEach(campo => {
         campo.classList.remove("is-invalid");
     });
 });
+
+const btnTop = document.getElementById("btnTop");
+
+btnTop.addEventListener("click", function (event) {
+    event.preventDefault(); // evita que recargue o salte raro
+
+    window.scrollTo({
+        top: 0,
+        behavior: "smooth"
+    });
+});

@@ -19,7 +19,7 @@
     <title>Dale tu Sentido</title>
 </head>
 
-<body>
+<body class="body-color">
     <header>
         <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
             <div class="container">
@@ -30,9 +30,9 @@
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <ul class="navbar-nav me-auto mb-2 mb-md-0">
                         <li class="nav-item"><a class="nav-link active" href="#">Inicio</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#">Insumos</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#">Arreglos</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#">Peluches</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#rosas-jabon">Rosas de Jabón</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#limpiapipas">Limpia Pipas</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#satin">Rosas de satín</a></li>
                         <li class="nav-item"><a class="nav-link" href="#contactanos">Contáctanos</a></li>
                     </ul>
                 </div>
@@ -93,15 +93,13 @@
                 </div>
             </div>
         </div>
+
     </section>
 
-    <main class="container mt-5">
-        <div class="row featurette align-items-center">
+    <main class="container mt-5 main-color">
+        <hr class="featurette-divider">
+        <section id="rosas-jabon" class="row featurette align-items-center seccion-jabon">
             <div class="col-md-7">
-                <h2 class="featurette-heading fw-normal lh-1">Bienvenidos al mundo de <span class="text-muted">detalles
-                        Eternos</span></h2>
-                <p class="lead mt-3">En Dale tu Sentido, creemos que los mejores regalos son aquellos que no se
-                    marchitan con el tiempo.</p>
                 <p style="text-align: justify;">Las rosas de jabón son flores decorativas y aromáticas elaboradas a base
                     de láminas delgadas de jabón moldeadas para imitar la apariencia de una rosa natural. Aunque a
                     simple vista pueden parecer flores reales o incluso de seda, tienen características muy particulares
@@ -120,10 +118,10 @@
 
                 <img src="assets/img/arreglo.png" class="img-fluid mx-auto d-block rounded shadow" alt="Arreglo Floral">
             </div>
-        </div>
+        </section>
         <hr class="featurette-divider">
 
-        <div class="row featurette">
+        <div id="limpiapipas" class="row featurette limpiapipas">
             <div class="col-md-7 order-md-2">
                 <h2 class="featurette-heading fw-normal lh-1">¿Buscas un regalo único y lleno de significado?</h2>
                 <p class="lead">Nuestros arreglos de limpiapipas están creados pétalo a pétalo con dedicación y
@@ -145,8 +143,8 @@
                     alt="Insumos">
             </div>
         </div>
-
-        <div class="row featurette align-items-center">
+        <hr class="featurette-divider">
+        <div id="satin" class="row featurette align-items-center satin">
             <div class="col-md-7">
                 <h2 class="featurette-heading fw-normal lh-1">Rosas de satín: <span class="text-muted">Eterna belleza en
                         un pétalo de seda.</span></h2>
@@ -165,7 +163,8 @@
                 <img src="assets/img/satin.png" class="img-fluid mx-auto d-block rounded shadow" alt="Arreglo Floral">
             </div>
         </div>
-        <section id="contactanos" class="py-5">
+        <section id="contactanos" class="py-5 form-color">
+            <hr class="featurette-divider">
             <div class="container">
                 <h2 class="text-center mb-4">Contáctanos</h2>
 
@@ -228,7 +227,7 @@
     </main>
     <div class="row text-center mt-2 justify-content-center">
         <br>
-        <h2 class="text-muted"><br>Contáctanos.</span></h2>
+        <h2 class="text-muted"><br>Nuestras redes.</span></h2>
 
 
         <div class="col-lg-4 mb-4">
@@ -267,7 +266,9 @@
 
     </div>
     <footer class="container py-5">
-        <p class="float-end"><a href="#">Back to top</a></p>
+        <p class="float-end">
+            <a href="#" id="btnTop">Back to top</a>
+        </p>
         <p>&copy; Todos los derechos reservados &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
 
     </footer>
