@@ -44,17 +44,14 @@ body {
     margin: 3rem 0;
 }
 
-@media (max-width: 768px) {
-    .hero {
-        padding: 60px 15px;
-    }
+.jabon {
+    background-color: rgb(176, 142, 209);
+}
 
-    .bienvenida {
-        text-align: center;
-        padding-top: 10px;
-    }
+body {
+    padding-top: 70px;
+}
 
-    .navbar-brand {
-        padding-right: 0;
-    }
+.featurette-divider {
+    margin: 3rem 0;
 }

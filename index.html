@@ -33,6 +33,7 @@
                         <li class="nav-item"><a class="nav-link" href="#">Insumos</a></li>
                         <li class="nav-item"><a class="nav-link" href="#">Arreglos</a></li>
                         <li class="nav-item"><a class="nav-link" href="#">Peluches</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contactanos">Contáctanos</a></li>
                     </ul>
                 </div>
             </div>
@@ -97,6 +98,10 @@
     <main class="container mt-5">
         <div class="row featurette align-items-center">
             <div class="col-md-7">
+                <h2 class="featurette-heading fw-normal lh-1">Bienvenidos al mundo de <span class="text-muted">detalles
+                        Eternos</span></h2>
+                <p class="lead mt-3">En Dale tu Sentido, creemos que los mejores regalos son aquellos que no se
+                    marchitan con el tiempo.</p>
                 <p style="text-align: justify;">Las rosas de jabón son flores decorativas y aromáticas elaboradas a base
                     de láminas delgadas de jabón moldeadas para imitar la apariencia de una rosa natural. Aunque a
                     simple vista pueden parecer flores reales o incluso de seda, tienen características muy particulares
@@ -117,6 +122,7 @@
             </div>
         </div>
         <hr class="featurette-divider">
+
         <div class="row featurette">
             <div class="col-md-7 order-md-2">
                 <h2 class="featurette-heading fw-normal lh-1">¿Buscas un regalo único y lleno de significado?</h2>
@@ -139,6 +145,7 @@
                     alt="Insumos">
             </div>
         </div>
+
         <div class="row featurette align-items-center">
             <div class="col-md-7">
                 <h2 class="featurette-heading fw-normal lh-1">Rosas de satín: <span class="text-muted">Eterna belleza en
@@ -158,7 +165,68 @@
                 <img src="assets/img/satin.png" class="img-fluid mx-auto d-block rounded shadow" alt="Arreglo Floral">
             </div>
         </div>
+        <section id="contactanos" class="py-5">
+            <div class="container">
+                <h2 class="text-center mb-4">Contáctanos</h2>
+
+                <div class="row justify-content-center">
+                    <div class="col-md-8 col-lg-6">
+
+                        <form id="formContacto">
+
+                            <div class="row">
+                                <div class="col-md-6 mb-3">
+                                    <label for="inputNombre" class="form-label">Nombre</label>
+                                    <input type="text" class="form-control" id="inputNombre" placeholder="Nombre">
+                                    <div class="invalid-feedback">
+                                        El nombre es obligatorio.
+                                    </div>
+                                </div>
+
+                                <div class="col-md-6 mb-3">
+                                    <label for="inputEmail" class="form-label">Email</label>
+                                    <input type="email" class="form-control" id="inputEmail" placeholder="Email">
+                                    <div class="invalid-feedback">
+                                        Ingresa un email válido.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="inputCelular" class="form-label">Celular</label>
+                                <input type="tel" class="form-control" id="inputCelular" placeholder="+56912345678">
+                                <div class="invalid-feedback">
+                                    Ingresa un celular válido.
+                                </div>
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="inputEscribenos" class="form-label">Escríbenos</label>
+
+                                <textarea class="form-control" id="inputEscribenos" rows="5" maxlength="500"
+                                    placeholder="Escribe aquí tu mensaje..."></textarea>
+
+                                <small class="text-muted">
+                                    Máximo 500 caracteres.
+                                </small>
+
+                                <div class="invalid-feedback">
+                                    Debes escribir al menos 10 caracteres.
+                                </div>
+                            </div>
+
+                            <button type="submit" class="btn btn-primary w-100">
+                                Enviar
+                            </button>
+
+                        </form>
+
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
+    <script src="assets/js/scripts.js"></script>
     <!-- Bootstrap JS Bundle -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
