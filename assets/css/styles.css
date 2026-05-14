@@ -15,12 +15,29 @@
     color: rgb(176, 142, 209);
 }
 
-.hero {
-    background-color: rgb(176, 142, 209);
-}
-
 body {
     padding-top: 70px;
+}
+
+.hero {
+    background-color: rgb(176, 142, 209);
+    padding: 90px 15px;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.bienvenida {
+    padding-left: 0;
+}
+
+.carousel-item img {
+    height: 400px;
+    object-fit: cover;
+}
+
+.jabon {
+    background-color: rgb(176, 142, 209);
 }
 
 .featurette-divider {
