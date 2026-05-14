@@ -27,6 +27,14 @@ body {
     margin: 3rem 0;
 }
 
-.jabon{
-    background-color:rgb(176, 142, 209);
+.jabon {
+    background-color: rgb(176, 142, 209);
+}
+
+body {
+    padding-top: 70px;
+}
+
+.featurette-divider {
+    margin: 3rem 0;
 }
