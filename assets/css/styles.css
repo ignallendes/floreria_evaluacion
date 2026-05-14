@@ -15,6 +15,10 @@
     color: rgb(176, 142, 209);
 }
 
+body {
+    padding-top: 70px;
+}
+
 .hero {
     background-color: rgb(176, 142, 209);
     padding: 90px 15px;
@@ -23,7 +27,7 @@
     align-items: center;
 }
 
-.bienvenida {g
+.bienvenida {
     padding-left: 0;
 }
 
@@ -36,10 +40,21 @@
     background-color: rgb(176, 142, 209);
 }
 
-body {
-    padding-top: 70px;
-}
-
 .featurette-divider {
     margin: 3rem 0;
+}
+
+@media (max-width: 768px) {
+    .hero {
+        padding: 60px 15px;
+    }
+
+    .bienvenida {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .navbar-brand {
+        padding-right: 0;
+    }
 }
