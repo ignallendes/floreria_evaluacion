@@ -17,14 +17,19 @@
 
 .hero {
     background-color: rgb(176, 142, 209);
+    padding: 90px 15px;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
 }
 
-body {
-    padding-top: 70px;
+.bienvenida {g
+    padding-left: 0;
 }
 
-.featurette-divider {
-    margin: 3rem 0;
+.carousel-item img {
+    height: 400px;
+    object-fit: cover;
 }
 
 .jabon {
